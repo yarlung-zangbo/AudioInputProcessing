@@ -7,3 +7,10 @@ class sound(Document):
     name = StringField()
     content = BinaryField()
     _class = StringField()
+
+class AudioBookV(Document):
+    bookid = IntField()
+    content = BinaryField()
+
+class TestClass(Document):
+    TestNumber = IntField()
